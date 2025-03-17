@@ -1,0 +1,23 @@
+{
+  "name": "localjsondb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virajenterprise/localjsondb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virajenterprise/localjsondb/issues"
+  },
+  "homepage": "https://github.com/virajenterprise/localjsondb#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
