@@ -4,7 +4,7 @@ const postRouter = require('./routes/postRoutes');
 const putRouter = require('./routes/putRoutes');
 const deleteRouter = require('./routes/deleteRoutes');
 const app = express();
-const port=4000;
+const port=21``
 app.use("/",getRouter)
 app.use("/",postRouter)
 app.use("/",putRouter)
