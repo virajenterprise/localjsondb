@@ -1,0 +1,25 @@
+{
+  "service": "gmail",
+  "auth": {
+    "user": "rushiraj@varjoon.com",
+    "pass": "rfsf lpwo ilcq izeo"
+  },
+  "subject": "OUTSTANDING V.ARJOON SHIPPING PVT LTD Rs.{amount}",
+  "text": "Dear Sir/Ma'am, \nGreetings from V Arjoon ! \n\nPlease note outstanding receivable in account of {name} in our books as on today \nis {amount}, kindly release payment as per agreed terms \n\nThanking You \nV Arjoon Shipping Pvt Ltd \nThis is an auto generated email. Please do not reply to this email.",
+  "comment": [
+    {
+      "id1": "accountskandla",
+      "details": {
+        "user": "accountskandla@varjoon.com",
+        "pass": "bqck cydw ernq xrbh"
+      }
+    },
+    {
+      "id1": "Rushiraj",
+      "details": {
+        "user": "rushiraj@varjoon.com",
+        "pass": "rfsf lpwo ilcq izeo"
+      }
+    }
+  ]
+}

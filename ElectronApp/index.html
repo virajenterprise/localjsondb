@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Bulk Email Sender</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <h1>Bulk Email Sender</h1>
+      <label>Please upload excel file below with list for Email</label>
+      <input type="file" accept=".xlsx" id="input" />
+      <table id="table" class="table">
+        <thead>
+          <tr>
+            <th>Sr No</th>
+            <th>from</th>
+            <th>To</th>
+            <th>CC</th>
+            <th>Subject</th>
+            <th>Text</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="modal" id="modaldiv">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
